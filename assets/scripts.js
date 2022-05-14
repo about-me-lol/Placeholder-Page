@@ -1,4 +1,4 @@
-const images = ["bg1.jpg", "bg2.jpg", "bg3.jpg"]
+const images = ["bg1.png", "bg2.png", "bg3.png"]
 const slideshow = () => images.forEach((e, i) => {
     setTimeout(() => {
         imageDiv = document.querySelector(".bg");
